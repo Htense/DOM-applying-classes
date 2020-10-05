@@ -7,6 +7,8 @@ function start () {
  one()
  two()
  three()
+ makeVisible()
+
 }
 
 function one () {
@@ -27,6 +29,9 @@ function three () {
   three.classList.add('pocket')
 }
 
-// CREATE FUNCTION three HERE
 
-// CREATE FUNCTION makeVisible HERE
+function makeVisible () {
+  var fourthDot = document.getElementsByClassName('invisible')[0]
+  fourthDot.classList.add('visible')
+
+}
