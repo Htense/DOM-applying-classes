@@ -25,6 +25,10 @@ div {
   background-color: green;
 }
 
+.pocket {
+  background-color: black;
+}
+
 .invisible {
   display: none;
 }
