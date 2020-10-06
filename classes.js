@@ -29,7 +29,6 @@ function three () {
   three.classList.add('pocket')
 }
 
-
 function makeVisible () {
   var fourthDot = document.getElementsByClassName('invisible')[0]
   fourthDot.classList.add('visible')
